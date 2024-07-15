@@ -1,0 +1,83 @@
+/* styles.css */
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Stopwatch Container */
+.stopwatch-container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+
+/* Stopwatch Display */
+.stopwatch-display {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Controls */
+.controls {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background: #ddd;
+}
+
+.controls button {
+    background: #444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.controls button:hover {
+    background: #555;
+}
+
+.controls button:active {
+    background: #666;
+}
+
+/* Lap Times */
+.lap-times {
+    padding: 10px;
+    background: #eee;
+}
+
+.lap-times h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.lap-times ul {
+    list-style: none;
+}
+
+.lap-times li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
